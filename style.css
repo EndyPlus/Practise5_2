@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotes {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+}
+
+a {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 50px;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+}
